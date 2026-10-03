@@ -34,7 +34,7 @@ The plugin contains no hooks, scripts, commands, local executable, local server,
 4. The service inspects the response in memory and returns structured checks plus a complete text fallback to Claude.
 5. Claude receives and explains the result under the data policy for your Claude account, plan, or workspace. The standalone plugin does not call the Anthropic API itself.
 
-The service uses no inspection database, persistent report store, user account, cookie, or application analytics. It does not intentionally log request bodies, record references, or inspection results. See the [privacy policy](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/privacy/) for hosting, provider, logging, retention, support, and deletion details.
+The service uses no inspection database, persistent report store, user account, cookie, or application analytics. It does not intentionally log request bodies, record references, or inspection results. See the [privacy policy](https://uceevidencelens.com/claude/privacy/) for hosting, provider, logging, retention, support, and deletion details.
 
 Only submit lawfully shareable public references. Do not send an unpublished original, private manifest, credential, payment detail, or sensitive information.
 
@@ -74,10 +74,10 @@ Native Claude web testing covered the inspection card, a report-download acknowl
 
 ## Source, support, and policies
 
-- Documentation: <https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/>
-- Support: <https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/support/>
-- Privacy: <https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/privacy/>
-- Terms: <https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/terms/>
+- Documentation: <https://uceevidencelens.com/claude/>
+- Support: <https://uceevidencelens.com/claude/support/>
+- Privacy: <https://uceevidencelens.com/claude/privacy/>
+- Terms: <https://uceevidencelens.com/claude/terms/>
 - Source repository: <https://github.com/hedward/uce-evidence-lens-claude>
 
 The plugin source is available under the Mozilla Public License 2.0. The UCE names and mark are treated separately from the software license. Anthropic and OpenAI do not endorse this plugin.

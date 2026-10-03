@@ -4,7 +4,7 @@ Read-only inspection of approved public Universal Creation Evidence records, wit
 
 The Claude plugin is in [plugin/](plugin/). Its README covers setup, tools, data flow, examples, privacy, support, and limitations. The separate public MCP connector uses the endpoint configured in that folder. Directory submission or approval does not itself mean the listing has been published.
 
-[Public documentation](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/) · [Support](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/support/)
+[Public documentation](https://uceevidencelens.com/claude/) · [Support](https://uceevidencelens.com/claude/support/)
 
 [ui-source/](ui-source/) provides readable source for the remotely delivered inspection card. No local executable, shell hook, or install script runs when the plugin is installed. The plugin contacts its declared remote service; the service retrieves only approved public sources.
 

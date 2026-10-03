@@ -34,4 +34,4 @@ The three PNG captures below show that native Claude card after report generatio
 
 Native coverage is Claude web. Desktop/mobile behavior and every theme or keyboard configuration have not been exhaustively tested. The MCP response retains complete structured/text data for hosts without the card. Fixture tests cover unsupported formats, tampering, source restrictions, network failures, output bounds, and concurrent request isolation.
 
-[Documentation](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/) · [Privacy](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/privacy/) · [Support](https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/support/)
+[Documentation](https://uceevidencelens.com/claude/) · [Privacy](https://uceevidencelens.com/claude/privacy/) · [Support](https://uceevidencelens.com/claude/support/)

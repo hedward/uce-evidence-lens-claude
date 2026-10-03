@@ -1,14 +1,14 @@
 {
   "name": "uce-evidence-lens",
   "displayName": "UCE Evidence Lens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inspect explicitly identified public UCE records with read-only evidence checks and create unsigned, dated inspection reports.",
   "author": {
     "name": "Copyright by UCE",
     "email": "support@universalcreationevidence.com",
-    "url": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/"
+    "url": "https://uceevidencelens.com/claude/"
   },
-  "homepage": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/",
+  "homepage": "https://uceevidencelens.com/claude/",
   "repository": "https://github.com/hedward/uce-evidence-lens-claude",
   "license": "MPL-2.0",
   "keywords": [
@@ -18,8 +18,8 @@
     "uce"
   ],
   "icon": "./assets/uce-mark.svg",
-  "documentationUrl": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/",
-  "supportUrl": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/support/",
-  "privacyPolicyUrl": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/privacy/",
-  "termsOfServiceUrl": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/claude/terms/"
+  "documentationUrl": "https://uceevidencelens.com/claude/",
+  "supportUrl": "https://uceevidencelens.com/claude/support/",
+  "privacyPolicyUrl": "https://uceevidencelens.com/claude/privacy/",
+  "termsOfServiceUrl": "https://uceevidencelens.com/claude/terms/"
 }
