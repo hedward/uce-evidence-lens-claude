@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "upstreamRepository": "uce-evidence-lens",
+  "upstreamRevision": "a08f3556c77c4dd7190915e4739e3b6549ef0df9",
+  "packageVersion": "1.1.2-source.a08f355",
+  "entryRoots": [
+    "upstream/src/records/parser.ts",
+    "upstream/src/security/untrusted.ts",
+    "upstream/src/verification/evidence.ts",
+    "upstream/src/verification/arweave.ts"
+  ],
+  "allowedExternalImports": [
+    "@noble/post-quantum/ml-dsa.js"
+  ],
+  "files": [
+    {
+      "packagePath": "upstream/public/demo/uce-evidence-lens-logo-tagline-v1.0.uce.json",
+      "upstreamPath": "public/demo/uce-evidence-lens-logo-tagline-v1.0.uce.json",
+      "sha256": "d607fd3ca2186b1f5174d315f474e77f5503d3a2b544156c43b4d85a957e2429",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/records/demo.ts",
+      "upstreamPath": "src/records/demo.ts",
+      "sha256": "d89f9e9aef925220b1b02102b2373bf9f4911132d5c064092b8bc1874777af99",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/records/loader.ts",
+      "upstreamPath": "src/records/loader.ts",
+      "sha256": "a307fd650deb072cdcc138936f18b77438ed31fe92a263fc150863884fbdfc6c",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/records/manifest-compatibility.ts",
+      "upstreamPath": "src/records/manifest-compatibility.ts",
+      "sha256": "81c3d7cda5455736487223f277ebc9eb7584f04a1648be165f2e4373633529c2",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/records/parser.ts",
+      "upstreamPath": "src/records/parser.ts",
+      "sha256": "f060e88babca443e6829ad424abf6bb1af5879602a69063d1a465ff25090c2e9",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/security/strict-json.ts",
+      "upstreamPath": "src/security/strict-json.ts",
+      "sha256": "de00df4e9b05564476c0935b863e2fa0e3b9f147d7e6e3abc62a0d88d0168538",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/security/trusted-platform-keys.ts",
+      "upstreamPath": "src/security/trusted-platform-keys.ts",
+      "sha256": "511965f2d40860146ee6afdada1757755a2a87fc230f2941eedb06dd63e916b1",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/security/trusted-quantum-keys.ts",
+      "upstreamPath": "src/security/trusted-quantum-keys.ts",
+      "sha256": "5d64d9d3b636f14457e32c32c326cf60be079c02d8d0cb4ddf983530f3546c37",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/security/untrusted.ts",
+      "upstreamPath": "src/security/untrusted.ts",
+      "sha256": "d4dbc4914e798d7844a74c336880b439b120a54b4153e3250e360996522765df",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/types/record.ts",
+      "upstreamPath": "src/types/record.ts",
+      "sha256": "0fdd1e35fc3ed23550d931905552c916356bf853d4902394dec3bf6412fab6ea",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/arweave.ts",
+      "upstreamPath": "src/verification/arweave.ts",
+      "sha256": "a948b2e04e9820d57c7bdefefcf0b37dc9fe04070e7492dc5d00b3be156ad937",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/crypto.ts",
+      "upstreamPath": "src/verification/crypto.ts",
+      "sha256": "61c757ed7286d07ba24919bf8ac8875d58a63039fd068a633fcb8b034d63ca50",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/evidence.ts",
+      "upstreamPath": "src/verification/evidence.ts",
+      "sha256": "36dff0da5f79bee5e02bf925e068126b3d41b479fece49802ef5a5343717cff2",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/hybrid-signature.ts",
+      "upstreamPath": "src/verification/hybrid-signature.ts",
+      "sha256": "ed2daeb014842600b73b51d9086631e683aec0d99675e0e2aded036177ad3f60",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/manifest-hash.ts",
+      "upstreamPath": "src/verification/manifest-hash.ts",
+      "sha256": "56780802b9d541bae505b0d09b3761f4257d44ff431618dfa3ed8e7b960f8a08",
+      "kind": "source"
+    },
+    {
+      "packagePath": "upstream/src/verification/standard-hash.ts",
+      "upstreamPath": "src/verification/standard-hash.ts",
+      "sha256": "e023b6f434975d10cc526a120b843443fffedef582184069d34e53abcba9575b",
+      "kind": "source"
+    },
+    {
+      "packagePath": "docs/CBYUCE-MANIFEST-HASH-PROFILE.md",
+      "upstreamPath": "docs/CBYUCE-MANIFEST-HASH-PROFILE.md",
+      "sha256": "3de7fdf366b4f0610a17734520d12180906db137a636ef935593e917c903baaf",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/MANIFEST-COMPATIBILITY.md",
+      "upstreamPath": "docs/MANIFEST-COMPATIBILITY.md",
+      "sha256": "974deecac6bbb828a18a8ff49ed98d00086f2227282e7dcbef7eb9b3664e91cd",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/hash-profiles/CURRENT-AND-FORWARD-CONTRACT.md",
+      "upstreamPath": "docs/hash-profiles/CURRENT-AND-FORWARD-CONTRACT.md",
+      "sha256": "2e907110a7e5fca31d3f1fe1a7cd4281740925bfb1e0956a56ddf56e97875d96",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/hash-profiles/EXTENDED-1.1-VERIFICATION.md",
+      "upstreamPath": "docs/hash-profiles/EXTENDED-1.1-VERIFICATION.md",
+      "sha256": "a255c2a364e637f48d33eb4f610c972f24d945691e20d69431a577bcccdaebd2",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/hash-profiles/HYBRID-QUALIFICATION.md",
+      "upstreamPath": "docs/hash-profiles/HYBRID-QUALIFICATION.md",
+      "sha256": "89dfe0fca15f0d813b06497592bf2cd8d70358d7436bae4611fecdfc5c275533",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/hash-profiles/LEGACY-AND-HYBRID-VERIFICATION.md",
+      "upstreamPath": "docs/hash-profiles/LEGACY-AND-HYBRID-VERIFICATION.md",
+      "sha256": "cf1d907e80da626de3a072edb8fa53d49be11fae9392263eeeba75ade8316309",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "docs/hash-profiles/VECTOR-VERIFICATION.md",
+      "upstreamPath": "docs/hash-profiles/VECTOR-VERIFICATION.md",
+      "sha256": "f27f46fa51275217bf7d37643e8a0f5181e53b18aa7196adc7313cddb687db20",
+      "kind": "documentation"
+    },
+    {
+      "packagePath": "fixtures/extended-production-vector.json",
+      "upstreamPath": "tests/fixtures/extended-production-vector.json",
+      "sha256": "3bcb6a36eda4605bafc4cd19dfbcb7dd1e1745fc8024f178c7c480d3178a4c35",
+      "kind": "fixture"
+    },
+    {
+      "packagePath": "fixtures/extended-production.json",
+      "upstreamPath": "tests/fixtures/extended-production.json",
+      "sha256": "5ce7d6ee607f7a36c1d28f8c1251889b415aeccc5151618ec25498de237a326e",
+      "kind": "fixture"
+    },
+    {
+      "packagePath": "LICENSE",
+      "upstreamPath": "LICENSE",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "kind": "legal"
+    },
+    {
+      "packagePath": "NOTICE.md",
+      "upstreamPath": "NOTICE.md",
+      "sha256": "809cfdffeab72273c1390d5023ecc7c52191ceeeaf2a49c1c6327d0a22331c26",
+      "kind": "legal"
+    },
+    {
+      "packagePath": "TRADEMARKS.md",
+      "upstreamPath": "TRADEMARKS.md",
+      "sha256": "4208820d0a961f62065d04fdb11a7cddbd709e9aaa355952051d9bbbd9f0a260",
+      "kind": "legal"
+    },
+    {
+      "packagePath": "THIRD-PARTY-NOTICES.txt",
+      "upstreamPath": "public/THIRD-PARTY-NOTICES.txt",
+      "sha256": "01a5851c9620801559ce076815f1097b590bdfbd489682c600d230c041cd6586",
+      "kind": "legal"
+    }
+  ]
+}

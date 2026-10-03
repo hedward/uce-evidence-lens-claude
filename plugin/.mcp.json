@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "uce-evidence-lens": {
+      "type": "http",
+      "url": "https://uce-evidence-lens-claude-zptt2ggs7a-uc.a.run.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+// Public verification material only. Same immutable registry as the pinned EC key.
+// No manifest-selected URL or key can add an entry to this registry.
+export interface TrustedQuantumKey {
+  kid: string;
+  status: "active" | "revoked";
+  publicKeyBase64: string;
+  sha256: string;
+  publicKeySource: string;
+  approvalSource: string;
+  reviewedAt: string;
+}
+export const TRUSTED_QUANTUM_KEYS: readonly TrustedQuantumKey[] = Object.freeze(
+  [
+    Object.freeze({
+      kid: "platform-quantum-1761279471123",
+      status: "active",
+      publicKeyBase64:
+        "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",
+      sha256:
+        "57e679254e52c8a546fccae09c4c269943e1b01a6003ca7c98ce5261aabe009b",
+      publicKeySource:
+        "https://arweave.net/8IQIcijOSMO0dtKrNsVPTFbJBGiIaL6x9EsUW4UdApQ",
+      approvalSource:
+        "https://cbyuce.com/verify/5d476448cf9f05d1fd5d3b863f8a212732f1593d90dc63b292f557c28775a48f?format=json",
+      reviewedAt: "2026-09-21",
+    }),
+  ],
+);

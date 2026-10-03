@@ -1,0 +1,135 @@
+{
+  "schema": "uce.evidence.manifest",
+  "schemaVersion": "1.1.0",
+  "manifestVersion": 1,
+  "registrationTimestamp": "2026-09-21T20:56:14.336Z",
+  "generatedBy": {
+    "application": "CbyUCE Evidence Manifest System",
+    "applicationId": "CBYUCE",
+    "version": "1.0.0",
+    "generatedAt": "2026-09-21T20:58:22.541Z"
+  },
+  "work": {
+    "title": "cbyuce-test-doc-pdf-sample",
+    "authorName": "Ed Young",
+    "creationDate": "2026-09-21",
+    "creationMode": "written",
+    "workCategory": "literary"
+  },
+  "recordDetails": {
+    "format": "extended-v1",
+    "copyright": {
+      "title": "cbyuce-test-doc-pdf-sample",
+      "authorName": "Ed Young",
+      "alternativeTitles": [],
+      "authorPseudonyms": [],
+      "creationDate": "2026-09-21",
+      "creationMode": "written",
+      "workCategory": "literary",
+      "isPublished": false,
+      "isWorkMadeForHire": false,
+      "rightsDeclaration": "all_rights_reserved",
+      "ownershipBasis": "authorized_representative",
+      "authorityDetails": "Authorized by Copyright by UCE",
+      "isAIAssisted": true,
+      "aiCreativeProcess": "Utilized ChatGPT to aid in creating the public reference asset for testing compatibility between CbyUCE evidence records and UCE Evidence Lens.",
+      "extendedRecordDetails": "Public reference asset for testing compatibility between CbyUCE evidence records and UCE Evidence Lens."
+    },
+    "license": "All Rights Reserved"
+  },
+  "files": [
+    {
+      "bytes": 1946,
+      "sha256": "7296dce99d04acccbb9663fbaee127fe96fc1d43870d17f0499928fa0a9fab1c",
+      "filename": "cbyuce-test-doc-pdf-sample.pdf",
+      "mimeType": "application/pdf",
+      "extension": ".pdf",
+      "clientReportedLastModified": "2026-01-02T21:03:54.000Z",
+      "fileCategory": "DOCUMENT",
+      "extensionMatchesMimeType": true,
+      "formatValidated": true
+    }
+  ],
+  "hashes": {
+    "merkleRoot": "7296dce99d04acccbb9663fbaee127fe96fc1d43870d17f0499928fa0a9fab1c",
+    "manifestHash": "d16afbafda0ef0bf1be29d4f89e8629fc2aa0eae55da30103aeb5e6a59abd9a5",
+    "algorithm": "sha256",
+    "canonicalization": "RFC8785"
+  },
+  "identity": {
+    "assurance": {
+      "level": "IAL1",
+      "methods": ["google_oauth"],
+      "verifiedAt": "2026-09-21T20:58:22.541Z"
+    }
+  },
+  "aiProvenance": {
+    "isAIAssisted": true,
+    "disclosedAt": "2026-09-21T20:58:22.541Z",
+    "aiCreativeProcess": "Utilized ChatGPT to aid in creating the public reference asset for testing compatibility between CbyUCE evidence records and UCE Evidence Lens."
+  },
+  "policy": {
+    "aiOptOut": true,
+    "doNotTrain": true,
+    "policyVersion": "1.0.0",
+    "effectiveAt": "2026-09-21T20:56:14.334Z",
+    "license": "All Rights Reserved",
+    "robotsMeta": "noai, noimageai",
+    "rights": "TDM-RESERVED"
+  },
+  "anchors": {
+    "arweave": {
+      "txId": ""
+    },
+    "fileStorage": {
+      "provider": "arweave",
+      "txId": "qPwf5AxunXpjpc9ZMAXUFXVOCdhR5COnfQDZxlP7mec",
+      "contentHash": "7296dce99d04acccbb9663fbaee127fe96fc1d43870d17f0499928fa0a9fab1c"
+    }
+  },
+  "audit": [
+    {
+      "event": "upload",
+      "at": "2026-09-21T20:56:14.336Z",
+      "by": "creator"
+    },
+    {
+      "event": "payment.completed",
+      "at": "2026-09-21T20:58:22.541Z",
+      "by": "system"
+    },
+    {
+      "event": "file.stored",
+      "at": "2026-09-21T20:58:22.541Z",
+      "by": "system",
+      "ref": "qPwf5AxunXpjpc9ZMAXUFXVOCdhR5COnfQDZxlP7mec",
+      "provider": "arweave"
+    },
+    {
+      "event": "manifest.generated",
+      "at": "2026-09-21T20:58:22.541Z",
+      "by": "system"
+    }
+  ],
+  "attestations": {
+    "claimantAdoption": {
+      "accepted": true,
+      "version": "1.3.1",
+      "text": "I have reviewed the displayed file fingerprint and claim particulars. I represent and warrant that those particulars are accurate to the best of my knowledge and that I have authority to submit this work and make these statements. I adopt this attestation as my statement concerning this work.",
+      "textHash": "ef4c849a891c78a257801c3eaba825d233ced1da0da27527f686df4775f9b196",
+      "acceptedAt": "2026-09-21T20:56:14.933Z"
+    },
+    "publicPermanence": {
+      "accepted": true,
+      "version": "1.3.1",
+      "text": "I understand that this file and its UCE Record will be public and cannot be deleted from the underlying permanent network.",
+      "textHash": "b76b2ed44856d7903c7c737d3ea7910f3f9c553751c3be149566be893bf20746",
+      "acceptedAt": "2026-09-21T20:56:14.933Z"
+    }
+  },
+  "signatures": {
+    "platformSignature": "eyJhbGciOiJFUzI1NiIsImtpZCI6InBsYXRmb3JtLWNsYXNzaWNhbC0xNzYxMjc5NDcxMTA5IiwidHlwIjoiSldTIiwidWNlUmVjb3JkRm9ybWF0IjoiZXh0ZW5kZWQtdjEiLCJjcml0IjpbInVjZVJlY29yZEZvcm1hdCJdfQ.0Wr7r9oO8L8b4p1Piehin8KqDq5V2jAQOutealmr2aU.B8YhPqyaSwRtRqfWuFL8zC-UloSQfjOe5GTAU9AoU6gUUv5k6T0zuah3nNdpK3DWbVEps5NUlOBquvYJvKIp1A",
+    "platformPublicKeyRef": "8IQIcijOSMO0dtKrNsVPTFbJBGiIaL6x9EsUW4UdApQ",
+    "platformKeyKid": "platform-classical-1761279471109"
+  }
+}

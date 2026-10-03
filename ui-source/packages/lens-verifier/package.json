@@ -1,0 +1,41 @@
+{
+  "name": "@uce/lens-verifier",
+  "version": "1.1.2-source.a08f355",
+  "description": "Private, source-pinned UCE Evidence Lens verifier package",
+  "private": true,
+  "type": "module",
+  "license": "MPL-2.0",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/types/src/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "docs",
+    "fixtures",
+    "provenance",
+    "src",
+    "upstream",
+    "LICENSE",
+    "NOTICE.md",
+    "README.md",
+    "TRADEMARKS.md",
+    "THIRD-PARTY-NOTICES.txt"
+  ],
+  "scripts": {
+    "verify:source": "node ../../scripts/check-verifier-source.mjs",
+    "build:js": "esbuild src/index.ts --bundle --platform=node --format=esm --target=node24 --outfile=dist/index.js --sourcemap --packages=external",
+    "build:types": "tsc -p tsconfig.json",
+    "build": "npm run verify:source && npm run build:js && npm run build:types"
+  },
+  "dependencies": {
+    "@noble/post-quantum": "0.7.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "6.0.3"
+  }
+}
